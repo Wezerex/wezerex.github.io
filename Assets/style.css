@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+nav {
+    background: #1a1a1a;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    margin-right: 1.5rem;
+    color: #9ecbff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+    background: #181818;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #888;
+    background: #1a1a1a;
+}
+
+a {
+    color: #b8d7ff; /* bleu plus clair */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-email {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin-top: 1.5rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-top: 0.3rem;
+    padding: 0.6rem;
+    background: #1e1e1e;
+    border: 1px solid #333;
+    color: #fff;
+    font-family: inherit;
+}
+
+.contact-form button {
+    margin-top: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    background: #2a6fff;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #3b7cff;
+}
